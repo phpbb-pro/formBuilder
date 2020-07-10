@@ -1,5 +1,6 @@
 import controlAutocomplete from './autocomplete';
 import controlButton from './button';
+import captchaButton from './captcha';
 import controlCustom from './custom';
 import controlHidden from './hidden';
 import controlParagraph from './paragraph';
@@ -13,6 +14,7 @@ import controlQuill from './textarea.quill';
 export default {
   controlAutocomplete,
   controlButton,
+  captchaButton,
   controlCustom,
   controlHidden,
   controlParagraph,
@@ -23,4 +25,3 @@ export default {
   controlTinymce,
   controlQuill
 };
-
